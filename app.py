@@ -7,10 +7,10 @@ app.py code is shown here. This is a functionality to test the sphinx for auto d
 
 app = Flask(__name__)
 mysql = MySQL(app)
-app.config['MYSQL_HOST'] = 'sql4.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql4483888'
-app.config['MYSQL_PASSWORD'] = 'qVFgSDccKM'
-app.config['MYSQL_DB'] = 'sql4483888'
+app.config['MYSQL_HOST'] = 'databasetest.ck9hsr7qvxku.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_USER'] = 'admin'
+app.config['MYSQL_PASSWORD'] = 'Merchant#1'
+app.config['MYSQL_DB'] = 'customer'
 app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
