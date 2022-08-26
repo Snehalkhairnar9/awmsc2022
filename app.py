@@ -7,7 +7,7 @@ app.py code is shown here. This is a functionality to test the sphinx for auto d
 
 app = Flask(__name__)
 mysql = MySQL(app)
-app.config['MYSQL_HOST'] = 'dbsql.c3szodjsmjlg.us-east-2.rds.amazonaws.com'
+app.config['MYSQL_HOST'] = 'database-1.c3szodjsmjlg.us-east-2.rds.amazonaws.com'
 app.config['MYSQL_USER'] = 'admin'
 app.config['MYSQL_PASSWORD'] = 'Merchant#1'
 app.config['MYSQL_DB'] = 'customer'
