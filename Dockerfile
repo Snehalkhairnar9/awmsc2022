@@ -1,5 +1,5 @@
 # start by pulling the python image
-FROM python:3.8
+FROM python:3.14.0a3
 
 COPY . /wwa
 
